@@ -35,4 +35,3 @@ jobs:
       run: |
         echo "Running on: ${{ runner.os }}"
         echo "Runner name: ${{ runner.name }}"
-        echo "Runner labels: ${{ toJson(runner.labels) }}"
