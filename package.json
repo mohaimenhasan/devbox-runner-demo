@@ -1,0 +1,17 @@
+{
+  "name": "devbox-runner-demo",
+  "version": "1.0.0",
+  "description": "Demo repository for DevBox self-hosted runner",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "echo 'Build step completed'",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+} 
